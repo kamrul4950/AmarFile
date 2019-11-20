@@ -10,6 +10,11 @@ public class NewApp{
 		return a*b;
 	}
 
+	public static int subtractionFun(int a, int b){
+		return a-b;
+	}
+	
+
 	public static void main(String[] args){
 		Scanner input =new Scanner(System.in);
 		System.out.print("Enter Two Integer Number : ");
@@ -18,6 +23,7 @@ public class NewApp{
 			int num2 = input.nextInt();
 		System.out.println("The Sum is :" + sumutionFun(num1,num2));
 		System.out.println("The Multiplaction is :" + multiplaction(num1,num2) );
+		System.out.println("The Subtraction Is :" + subtractionFun(num1,num2));
 
 	}
 }
