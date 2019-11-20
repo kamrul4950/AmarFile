@@ -1,12 +1,20 @@
+import java.util.Scanner;
 public class NewApp{
-	public static void main(String[] args) {
-		System.out.println("Git Bash Cammend is Awesome..");
 
-		System.out.println("Tow Digits Sumution Is :"+AddSum(4,6));
+	public static void nameFun(String name){
+		System.out.println("Welcome " +name);
 	}
 
 
-	public static int AddSum(int a,int b){
-		return a+b;
+	public static void main(String[] Args){
+		Scanner value = new Scanner(System.in);
+		System.out.print("Enter Your Name : ");
+			String name=value.next();
+			nameFun(name);
+		
+
+
 	}
+
+	
 }
